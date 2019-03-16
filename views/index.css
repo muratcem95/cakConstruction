@@ -3,3 +3,9 @@
     margin-top:30px;
     margin-bottom:30px;
 }
+.form-control{
+    border-color:#ffce7b;
+}
+.alert{
+    display:none;
+}
