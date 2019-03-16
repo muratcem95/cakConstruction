@@ -8,22 +8,33 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css"/>
-        <link rel="shortcut icon" href="images/logoFlo.PNG">
+        <link rel="shortcut icon" href="images/logoFloTrans.png">
         <title>C.A.K Arts & Crafts</title>
     </head>
     <body>
         <div class="container">
+            <div id="logo"><img src="images/Logo.png"></div>
+            <p>Dear loyal customer to be,</p>
+            <p>Our website is undergoing a construction, and will be available to public very soon :)<br>We apreciate your patience, and thank you for entering the website.</p>
+            <p><i>If you wish to be notified when the webpage is live again or want to contact us, please do fill the form below and we'll get back to you very quickly!</i></p>
             <form method="post" id="contactForm" action="/contactForm">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name *" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email address *" required>
-                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name *" required>
+                        </div>
+                    </div>    
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email address *" required>
+                            <small class="form-text text-muted">We will not be sharing your email address with any parties.</small>
+                        </div>
+                    </div>
+                </div>    
                 <div class="form-group">
                     <textarea class="form-control" id="message" name="message" rows="3" placeholder="Your message"></textarea>
                 </div>
-                <div class="text-center"><button class="btn btn-sm" type="submit" style="background-color:#404350; border-color:#404350; color:whitesmoke;">Send</button></div>
+                <div class="text-center"><button class="btn btn-sm" type="submit" style="background-color:#ffce7b; border-color:#ffce7b; color:#404350;">Send</button></div>
             </form>
         </div>
         <!-- Optional JavaScript -->
